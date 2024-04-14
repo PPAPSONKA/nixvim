@@ -1,15 +1,15 @@
 {
-    plugins.rainbow-delimiters = {
-        enable = true;
-        
+  plugins.rainbow-delimiters = {
+    enable = true;
+
     highlight = [
-        "RainbowRed"
-        "RainbowYellow"
-        "RainbowBlue"
-        "RainbowOrange"
-        "RainbowGreen"
-        "RainbowViolet"
-        "RainbowCyan"
+      "RainbowRed"
+      "RainbowYellow"
+      "RainbowBlue"
+      "RainbowOrange"
+      "RainbowGreen"
+      "RainbowViolet"
+      "RainbowCyan"
     ];
-    };
+  };
 }
