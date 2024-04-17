@@ -32,7 +32,7 @@
 
     swapfile = false;
     backup = false;
-    undodir = ''"os.getenv("HOME") .. "/.vim/undodir"'';
+    undodir = ''/tmp/nvim'';
     undofile = true;
 
     hlsearch = false;
