@@ -1,18 +1,18 @@
 { ... }: {
   # Import all your configuration modules here
   imports = [
-
         ./dap.nix
-            ./dracula.nix
-            ./indent-blankline.nix
-            ./lsp.nix
-            ./nvim-tree.nix
-            ./oil.nix
-            ./rainbow-delimiters.nix
-            ./telescope.nix
-            ./treesitter.nix
-            ./undotree.nix
-            ./obsidian.nix
+        ./dracula.nix
+        ./indent-blankline.nix
+        ./lsp.nix
+        ./nvim-tree.nix
+        ./obsidian.nix
+        ./oil.nix
+        ./python.nix
+        ./rainbow-delimiters.nix
+        ./telescope.nix
+        ./treesitter.nix
+        ./undotree.nix
     ];
 
   opts = {
