@@ -1,10 +1,10 @@
 { ... }: {
 # Import all your configuration modules here
     imports = [
-
         ./dap.nix
             ./dracula.nix
             ./indent-blankline.nix
+            ./clipboard.nix
             ./lsp.nix
             ./nvim-tree.nix
             ./obsidian.nix
