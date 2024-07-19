@@ -13,7 +13,6 @@
                 };
                 nil_ls.enable = true;
                 nixd.enable = true;
-                tinymist.enable = true;
             };
         };
         lsp-lines.enable = true;

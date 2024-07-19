@@ -1,21 +1,22 @@
 { ... }: {
 # Import all your configuration modules here
     imports = [
+        ./clipboard.nix
         ./dap.nix
-            ./dracula.nix
-            ./indent-blankline.nix
-            ./clipboard.nix
-            ./lsp.nix
-            ./nvim-tree.nix
-            ./obsidian.nix
-            ./oil.nix
-            ./python.nix
-            ./rainbow-delimiters.nix
-            ./surround.nix
-            ./telescope.nix
-            ./treesitter.nix
-            ./undotree.nix
-            ./zellij.nix
+        ./dracula.nix
+        ./indent-blankline.nix
+        ./lsp.nix
+        ./neomake.nix
+        ./nvim-tree.nix
+        ./obsidian.nix
+        ./oil.nix
+        ./python.nix
+        ./rainbow-delimiters.nix
+        ./surround.nix
+        ./telescope.nix
+        ./treesitter.nix
+        ./undotree.nix
+        ./zellij.nix
     ];
 
     opts = {
